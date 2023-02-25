@@ -8,5 +8,5 @@ The most interesting classes on the course Basic Frontend Development
 <br>
 [Simple JS project - Change color on click](https://angemariya.github.io/Basic_FE/Project-13%20(Homework)/index.html)
 <br>
-[Simple JS project - Add and delete products in shopping bag](https://angemariya.github.io/Basic_FE/Project-15-Final/index.html)
+[Simple JS project - Add and delete products in shopping bag](https://angemariya.github.io/Basic_FE/Project-15/index.html)
 <br>
