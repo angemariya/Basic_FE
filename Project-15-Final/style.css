@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #34495E;
+    border-radius: 20px;
+}
+
+.form {
+    margin: auto;
+    margin-top: 140px;
+    padding: 78px 150px;
+    margin-bottom: 60px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    padding: 10px 35px;
+    background-color: #D9D9D9;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.form .form-input:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form-input::placeholder {
+    color:#000;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.form-button {
+    border: none;
+    margin-top: 120px;
+    padding: 10px 35px;
+    background-color: #27AE60;
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: #208e4eff;
+}
+
+.form-button:active {
+    background-color: #259f58;
+    border-color: rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.sorting {
+    padding: 38px 60px;
+    margin-bottom: 70px;
+}
+
+.sorting input{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.form-select label {
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.form-select select {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.items-container {
+    background-color: transparent;
+}
+
+.items-card {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 30px;
+    background-color: #34495E;
+    border-radius: 20px;
+}
+
+.items-card:last-child {
+    margin-bottom: 130px;
+}
+
+.items-card:hover::after {
+    content: " ";
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    right: -25px;
+    background-image: url("../close.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 50px auto;
+    z-index: 2;
+}

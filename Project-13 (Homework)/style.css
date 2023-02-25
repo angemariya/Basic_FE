@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 400px;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    outline: none;
+    background-color: seagreen;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(38, 131, 78);
+}
+
+.btn:active {
+    transform: scale(0.99);
+
+}
+
+.btn:not(:last-child) {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,163 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #1ABC9C;
+    height: 70px;
+}
+
+.container {
+    width: 91%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social-icon:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* О нас */
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-info {
+    padding: 0 65px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-descr {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Наши проекты */
+
+.projects {
+    background-color: #DCFFEB;
+    padding: 125px 65px;
+}
+
+.projects h2 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-wrapper_card {
+    background-image: url(../images/project_arena.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card_text-hover {
+    visibility: hidden;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.projects-wrapper_card:hover .card_text-hover {
+    visibility: visible;  
+}
+
+.h3-font {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.p-font {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*Контакты*/
+
+.contacts {
+    padding: 84px 70px 76px;
+}
+
+.contacts h2 {
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+.contacts-wrapper {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-wrapper_card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper_card-header {
+    color:#999999;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 36px;
+    margin-bottom: 25px;
+}
+
+.wrapper_card-text {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.wrapper_card-text a {
+    color: #ff0000;
+} 
